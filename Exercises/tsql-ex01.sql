@@ -1,3 +1,4 @@
+. echo on
 . headers on
 
 -- Name: Brandon Scott
@@ -23,21 +24,7 @@ insert into comicBook values (15, "Amazing Fantasy: Spiderman", "Stan Lee", 1962
 
 
 select * from comicBook;
-Issue|Title|Artist|Released|Grade|Price
-40|Detective Comics|Howard Sherman|1940|4.0|4895.0
-168|Detective Comics|Lew Sayre Schwartz|1951|3.0|8400.0
-251|Batman|Neal Adams|1973|9.4|2137.5
-457|Batman|Norm Breyfogle|1990|9.8|149.95
-15|Amazing Fantasy: Spiderman|Stan Lee|1962|6.5|95000.0
 select * from comicBook where Artist like "Neal Adams";
-Issue|Title|Artist|Released|Grade|Price
-251|Batman|Neal Adams|1973|9.4|2137.5
 select * from comicBook where Price > 4000.00;
-Issue|Title|Artist|Released|Grade|Price
-40|Detective Comics|Howard Sherman|1940|4.0|4895.0
-168|Detective Comics|Lew Sayre Schwartz|1951|3.0|8400.0
-15|Amazing Fantasy: Spiderman|Stan Lee|1962|6.5|95000.0
 select * from comicBook where Grade = 9.8;
-Issue|Title|Artist|Released|Grade|Price
-457|Batman|Norm Breyfogle|1990|9.8|149.95
 
